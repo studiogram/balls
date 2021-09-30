@@ -1,0 +1,17 @@
+{
+  "name": "ocean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "parcel-bundler": "^1.12.5",
+    "socketio": "^1.0.0",
+    "three": "^0.127.0"
+  }
+}
