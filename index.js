@@ -6,7 +6,7 @@ const path = require("path");
 
 // Configuration
 const PORT = process.env.PORT || 3000;
-let bundler = new Bundler(path.join(__dirname, "index.html"));
+let bundler = new Bundler(path.join(__dirname, "/app/index.html"));
 
 // Start server
 const server = express()
